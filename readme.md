@@ -2,7 +2,7 @@
 
 An EL data pipeline that leverages Apache Airflow to extract a file from the web and upload it to BigQuery.
 
-![Project Overview](/docs/images/project_overview.png)
+![Project Overview](/docs/images/project_overview.jpeg)
 
 - The DAG first downloads the source file from the web and uploads it to Google Cloud Storage (GCS).
 - Next, BigQuery creates an external table that points to the file in GCS for analysis.
